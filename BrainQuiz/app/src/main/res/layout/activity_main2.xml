@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/homeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic"
+    tools:context=".Main2Activity">
+
+    <Button
+        android:id="@+id/quiz"
+        style="@android:style/Widget.Button"
+        android:layout_width="149dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="276dp"
+        android:background="#8B8BC5"
+        android:text="QUIZ"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="154dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:background="#8B8BC5"
+        android:text="Your Score"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintStart_toEndOf="@+id/quiz"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/userpanel"
+        android:layout_width="154dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="16dp"
+        android:background="#8B8BC5"
+        android:text="USER PANEL"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quiz" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="148dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="12dp"
+        android:background="#8B8BC5"
+        android:text="ABOUT US"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toEndOf="@+id/userpanel"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="16dp"
+        android:text=" Challenge Your Brain"
+        android:textAlignment="center"
+        android:textColor="#410806"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-condensed-light"
+        app:layout_constraintBottom_toTopOf="@+id/quiz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="278dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="64dp"
+        android:text="IQ Quiz"
+        android:textAlignment="center"
+        android:textColor="#410806"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-condensed-light"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="213dp"
+        android:layout_height="160dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+        app:srcCompat="@drawable/iconbrain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

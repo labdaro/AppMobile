@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="258dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:background="@drawable/border_input"
+                android:id="@+id/textView5"
+                android:layout_width="427dp"
+                android:layout_height="73dp"
+                android:text="Category of Quiz "
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif-condensed-medium" />
+
+            <TextView
+                android:background="@drawable/border_input"
+                android:id="@+id/textView7"
+                android:layout_width="331dp"
+                android:layout_height="50dp"
+                android:text="General Knowlegde Quiz"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+
+                android:id="@+id/general"
+                android:layout_width="412dp"
+                android:layout_height="185dp"
+                app:srcCompat="@drawable/programming" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border_input"
+                android:text="Programming Language Quiz"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/program"
+                android:layout_width="403dp"
+                android:layout_height="178dp"
+                app:srcCompat="@drawable/pro" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="366dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border_input"
+                android:text="Sport Challenge Quiz"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/sport"
+                android:layout_width="match_parent"
+                android:layout_height="186dp"
+                app:srcCompat="@drawable/sportcheck" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
